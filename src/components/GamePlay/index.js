@@ -7,7 +7,7 @@ import './index.css'
 import {
   GamePlayMainContainer,
   GameRulesView,
-  PopupView,
+  PopUpView,
   PopUpImage,
 } from './styledComponents'
 
@@ -118,7 +118,7 @@ class GamePlay extends Component {
             }
           >
             {close => (
-              <PopupView>
+              <PopUpView>
                 <button
                   type="button"
                   className="trigger-button-close"
@@ -130,7 +130,7 @@ class GamePlay extends Component {
                   src="https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/rules-image.png"
                   alt="rules"
                 />
-              </PopupView>
+              </PopUpView>
             )}
           </Popup>
         </GameRulesView>

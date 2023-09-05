@@ -1,7 +1,7 @@
 import GamePlay from './components/GamePlay'
 import './App.css'
 
-/*const choicesList = [
+/* const choicesList = [
   {
     id: 'ROCK',
     imageUrl:
@@ -17,7 +17,7 @@ import './App.css'
     imageUrl:
       'https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/paper-image.png',
   },
-]*/
+] */
 
 const App = () => <GamePlay />
 
